@@ -1,5 +1,4 @@
 /* See LICENSE file for copyright and license details. */
-
 /* appearance */
 static const unsigned int borderpx  = 3;        /* border pixel of windows */
 static const unsigned int gappx     = 10;        /* gaps between windows */
@@ -35,7 +34,7 @@ static const Rule rules[] = {
 	 */
 	/* class      instance    title       tags mask     isfloating   monitor */
 	{ "Gimp",     NULL,       NULL,        0,            1,           -1 },
-    { "icecat",  NULL,       "Picture-in-Picture",         0,       1,      -1 },
+    { "firefox",  NULL,       "Picture-in-Picture",         0,       1,      -1 },
 	{ NULL,      NULL,     "Event Tester", 0,            0,           -1 },
 	
 };
